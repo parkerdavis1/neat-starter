@@ -2,7 +2,7 @@
 title: A REAL TEST
 description: can you do any html you want?
 author: Parker
-date: 2022-09-25T22:04:34.905Z
+date: 2022-09-25T22:24:11.938Z
 tags:
   - Tags
 ---
@@ -24,4 +24,9 @@ THIS IS BLOG
 <span x-show="open">
 Content...content content content
 </span>
+</div>
+
+<div x-data="{ count: 0 }">
+<button x-on:click="count++">Increment</button> 
+<span x-text="count"></span>
 </div>
