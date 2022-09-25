@@ -18,3 +18,11 @@ THIS IS BLOG
 <h2><b>This</b> is a blog</h2>
 <img src="https://www.allaboutbirds.org/guide/assets/photo/37883281-480px.jpg">
 </div>
+
+<div x-data="{ open: false }">
+    <button @click="open = true">Expand</button>
+ 
+    <span x-show="open">
+      Content...content content content
+    </span>
+</div>
