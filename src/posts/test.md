@@ -20,9 +20,8 @@ THIS IS BLOG
 </div>
 
 <div x-data="{ open: false }">
-    <button @click="open = true">Expand</button>
- 
-    <span x-show="open">
-      Content...content content content
-    </span>
+<button @click="open = true">Expand</button>
+<span x-show="open">
+Content...content content content
+</span>
 </div>
