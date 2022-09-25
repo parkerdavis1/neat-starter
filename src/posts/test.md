@@ -12,7 +12,7 @@ THIS IS BLOG
 
 ## This *is* a blog
 
-<div style="display: flex;">
-<h2> *This* is a blog
+<div style="display: flex; flex-direction: row;">
+<h2><b>This</b> is a blog</h2>
 <img src="https://www.allaboutbirds.org/guide/assets/photo/37883281-480px.jpg">
 </div>
